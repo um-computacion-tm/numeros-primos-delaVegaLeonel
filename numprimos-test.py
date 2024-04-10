@@ -26,7 +26,8 @@ class TestPrimos(unittest.TestCase):
         result = is_primo(6)
         self.assertEqual(result, False)
         
-unittest.main()
+if __name__ == "__main__":
+    unittest.main()
     
 
     
